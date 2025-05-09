@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="./img/icon_Siman.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <title>Siman</title>
 </head>
@@ -15,15 +16,16 @@
     <header class="cabecera">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./img/icon_Siman.png" class="logo container-fluid"></a>
+                <a class="navbar-brand" href="./index.html"><img src="./img/icon_Siman.png" class="logo container-fluid"></a>
                 <button class="navegacion navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse text-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link text-light" href="#">Promociones</a>
-                        <a class="nav-link text-light" href="#">Redes Sociales</a>
+                        <a class="nav-link active text-light" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link text-light" href="./index.html#Promociones">Promociones</a>
+                        <a class="nav-link text-light" href="./page/shop.html">Tienda</a>
+                        <a class="nav-link text-light" href="#Contactanos">Contactanos</a>
                     </div>
                 </div>
             </div>
@@ -35,104 +37,215 @@
                 <img src="./img/banner.jpg" class="d-block w-100">
             </div>
         </div>
-        <section class="Capitulos w-100 container py-5">
-            <div class="col-12 text-center mb-3">
-                <h2 class="fw-bold">Promociones</h2>
+        <section class="Capitulos w-100 container pt-5 pb-1">
+            <div class="col-12 text-center">
+                <h2 class="card-title mb-3">No dejes pasar esta oportunidad</h2>
             </div>
         </section>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide w-75 mx-auto">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-                </button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2">
-                </button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3">
-                </button>
+        <figure class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="./img/credi.jpg" alt="" class="container-fluid">
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./img/promo1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-light text-shadow">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./img/promo2.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-light text-shadow">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/promo3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-light text-shadow">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
+        </figure>
+        <section class="row justify-content-center">
+            <div class="col-12 text-center w-100">
+                <p class=>Solicita la tuya ahora, con solo <strong>tres sencillos pasos</strong></p>
+                <a href="./page/credisiman.html" class="btn btn-outline-danger rounded-pill ">Credisiman</a>
+            </div>
+        </section>
+        <section class="Capitulos w-100 container pt-5 pb-1">
+            <div class="Box-mom text-center card w-100 mb-3">
+                <div class="card-body">
+                    <h5 class="card-title pb-3">¡Ahora de consentir a Mamá!</h5>
+                    <p class="card-text">Sabemos lo especial que son las reinas del hogar y por eso de parte de familia Siman <strong>SOLO POR HOY</strong> presiona sobre estos cupones y obten tu codigo secreto.</p>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            <p class="Restricciones fst-italic text-center">Restricciones aplican</p>
+        </section>
+        <section class="container text-center my-4">
+            <section class="row g-4">
+                <div class="col-6">
+                    <label class="d-block">
+                        <input type="checkbox" class="d-none" id="premio1">
+                        <div class="card p-3 hadow-sm border-0 rounded-4 hover-shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">🎁 Premio 1</h5>
+                                <p class="card-text">Descuento de 25% en ropa</p>
+                            </div>
+                            <div class="cupon mt-2 text-bg-success p-2 rounded d-none">
+                                A9K3Z8X2
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-6">
+                    <label class="d-block">
+                        <input type="checkbox" class="d-none" id="premio1">
+                        <div class="card p-3 hadow-sm border-0 rounded-4 hover-shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">🎁 Premio 2</h5>
+                                <p class="card-text">Descuento de 15% en joyeria</p>
+                            </div>
+                            <div class="cupon mt-2 text-bg-success p-2 rounded d-none">
+                                F7Q1R5L9  
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="col-6">
+                    <label class="d-block">
+                        <input type="checkbox" class="d-none" id="premio1">
+                        <div class="card p-3 hadow-sm border-0 rounded-4 hover-shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">🎁 Premio 3</h5>
+                                <p class="card-text">Descuento de 30% de flores</p>
+                            </div>
+                            <div class="cupon mt-2 text-bg-success p-2 rounded d-none">
+                                W2M8T6Y3  
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-6">
+                    <label class="d-block">
+                        <input type="checkbox" class="d-none" id="premio1">
+                        <div class="card p-3 hadow-sm border-0 rounded-4 hover-shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">🎁 Premio 4</h5>
+                                <p class="card-text">Descuento de 10% en zapateria</p>
+                            </div>
+                            <div class="cupon mt-2 text-bg-success p-2 rounded d-none">
+                                B4N7E0C1  
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </section>
+        </section>
         </div>
         <section class="Capitulos w-100 container py-5">
             <section class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 text-center mb-3">
-                        <h2 class="fw-bold">Descuentos</h2>
+                    <div id="Promociones" class="col-12 text-center mb-3">
+                        <h2 class="card-title">Promociones de temporada</h2>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
-                        <div class="card shadow-sm border-0 rounded-4 hover-shadow">
+                        <div class="Card-Shop card shadow-sm border-0 rounded-4 hover-shadow">
                             <img src="./img/Prod1.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Nintendo Swicht</h5>
                                 <p class="card-text">$399.00</p>
-                                <a href="#" class="btn btn-outline-danger rounded-pill px-4 py-2 fw-semibold">Ver más</a>
+                                <button type="button" class="btn btn-outline-danger rounded-pill px-4 py-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalNintendo">
+                                    Más detalles
+                                </button>
+                                <div class="modal fade" id="modalNintendo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Nintendo Swicht</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><b>Especificaciones:</b></p>
+                                                <ul>
+                                                    <li><b>Memoria de almacenamiento:</b> 32GB</li>
+                                                    <li><b>Resolución de pantalla:</b> 1280 x 720 Pixels</li>
+                                                    <li><b>Tipo de procesador:</b> Custom NVIDIA Tegra</li>
+                                                    <li><b>Tamaño de pantalla:</b> 6.2" pulgadas</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                                                <button type="button" class="btn btn-primary">Comprar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
-                        <div class="card shadow-sm border-0 rounded-4 hover-shadow">
+                        <div class="Card-Shop card shadow-sm border-0 rounded-4 hover-shadow">
                             <img src="./img/Prod2.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Jbl charge 5 parlante</h5>
                                 <p class="card-text">$239.00</p>
-                                <a href="#" class="btn btn-outline-danger rounded-pill px-4 py-2 fw-semibold">Ver más</a>
+                                <button type="button" class="btn btn-outline-danger rounded-pill px-4 py-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalJBL">
+                                    Más detalles
+                                </button>
+                                <div class="modal fade" id="modalJBL" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel2">Jbl charge 5 parlante</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><b>Especificaciones:</b></p>
+                                                <ul>
+                                                    <li><b>Tiempo aprox. de uso:</b> 20 Horas aprox.(El tiempo de reproducción/conversación puede variar según los diferentes dispositivos, volumenes y entornos)</li>
+                                                    <li><b>Sintonizador FM/AM:</b> No</li>
+                                                    <li><b>Capacidad de batería:</b> 7500 mAh</li>
+                                                    <li><b>Puerto USB:</b> Type C</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                                                <button type="button" class="btn btn-primary">Comprar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
-                        <div class="card shadow-sm border-0 rounded-4 hover-shadow">
+                        <div class="Card-Shop card shadow-sm border-0 rounded-4 hover-shadow">
                             <img src="./img/Prod3.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Mini bar Frigidaire 4 PCU </h5>
+                                <h5 class="card-title fw-bold">Mini bar Frigidaire 4 PCU</h5>
                                 <p class="card-text">$199.00</p>
-                                <a href="#" class="btn btn-outline-danger rounded-pill px-4 py-2 fw-semibold">Ver más</a>
+                                <button type="button" class="btn btn-outline-danger rounded-pill px-4 py-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalMinibar">
+                                    Más detalles
+                                </button>
+                                <div class="modal fade" id="modalMinibar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel3">Mini bar Frigidaire 4 PCU</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><b>Especificaciones:</b></p>
+                                                <ul>
+                                                    <li><b>Ice Maker:</b> No posee</li>
+                                                    <li><b>Material de estante de refrigerador:</b> Policarbonato</li>
+                                                    <li><b>Material de estante de congelador:</b> Policarbonato</li>
+                                                    <li><b>Fuente de alimentación:</b> 110 Voltios</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                                                <button type="button" class="btn btn-primary">Comprar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
-                        <div class="card shadow-sm border-0 rounded-4 hover-shadow">
-                            <img src="./img/Prod4.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">Aire Acondicionado Mini Split Mabe</h5>
-                                <p class="card-text">$369.00</p>
-                                <a href="#" class="btn btn-outline-danger rounded-pill px-4 py-2 fw-semibold">Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                </div>
             </section>
-            <footer class="bg-secondary-subtle text-dark mt-3 p-2 row g-0">
-                <section class="row">
-                    <div class="col-12 d-flex justify-content-center mb-3 mt-3">
+            <section class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3 mt-3">
+                    <a href="./page/shop.html" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold">Ver más</a>
+                </div>
+            </section>
+            
+        </section>
+            <footer id="Contactanos" class="bg-secondary-subtle text-dark mt-3 p-2 row g-0">
+                <section class="row justify-content-center">
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3 mt-3">
                         <img src="./img/icon_logo_Siman.png" class="img-fluid w-50">
                     </div>
                 </section>
